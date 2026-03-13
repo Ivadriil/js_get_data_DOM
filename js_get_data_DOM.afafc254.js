@@ -1,0 +1,2 @@
+"use strict";var population=document.getElementsByClassName("population"),totalPopulation=document.getElementsByClassName("total-population"),averagePopulation=document.getElementsByClassName("average-population");function populationNumber(){for(var t=0,o=0;o<population.length;o++)t+=parseInt(population[o].textContent.split(",").join(""));totalPopulation[0].textContent=t.toLocaleString(),averagePopulation[0].textContent=Math.round(t/population.length).toLocaleString()}populationNumber(population);
+//# sourceMappingURL=js_get_data_DOM.afafc254.js.map
